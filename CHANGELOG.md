@@ -2,7 +2,7 @@
 
 ## 0.9.0 - unreleased
 
-- MSRV is now 1.81
+- MSRV is now 1.82
 
 ## 0.8.0 - 2024-05-12
 
