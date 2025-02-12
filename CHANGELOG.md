@@ -1,7 +1,8 @@
 # Changelog
 
-## 0.9.0 - unreleased
+## 0.9.0 - 2025-02-12
 
+- Update rclone to v1.69.0
 - MSRV is now 1.82
 
 ## 0.8.0 - 2024-05-12

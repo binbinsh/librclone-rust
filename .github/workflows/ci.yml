@@ -62,6 +62,8 @@ jobs:
         working-directory: "librclone-sys"
 
       - name: dry-run cargo package librclone
+        # this looks for librclone-sys on crates.io, so will fail if we're publish-ready with a new version number
+        if: ${{ !contains(github.event.head_commit.message, 'librclone@') }}
         run: cargo package --no-verify
 
   publish:
