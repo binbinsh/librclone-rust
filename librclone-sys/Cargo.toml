@@ -9,4 +9,4 @@ rust-version = "1.81"
 version = "0.8.0+rclone-v1.66.0"
 
 [build-dependencies]
-bindgen = "0.69"
+bindgen = "0.71.1"
